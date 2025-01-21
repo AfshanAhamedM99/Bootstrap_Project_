@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap | Project </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Metrophobic&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+</head>
+<body>
+    <!-- Enquiry Now  -->
+    <div class="modal fade" id="enmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Enquire Now !</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-holder py-lg-2 px-lg-3">
+                    <div class="form-content">
+                        <h5> Book your free demo Session now !</h5>
+                        <p>2 Days of free demo session without paying a single rupee</p>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label mb-0">Name: </label>
+                        <input type="text" class="form-control" placeholder="Mention your full name" />
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label mb-0">E-mail: </label>
+                        <input type="email" class="form-control" placeholder="mentionyour@gmail.com" />
+                      </div>  
+                      <div class="input-group mb-3 phonenumber">
+                        <label class="form-label mb-0">Phone: </label>
+                        <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">+91</span>
+                        <input type="text" class="form-control" maxlength="10" pattern="[0-9]{10}" placeholder="Phone Number" required/>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<header class="container-fluid shadow-lg shadow-sm header-begin">
+    <div class="container">
+        <div class="row align-items-center">
+            <figure class="col-lg-6 mt-2">
+                <img src="./images/ws-cube-white-logo.svg" alt="">
+                    </figure>      
+            <div class="col-lg-6 ">
+                <div class="header-buttons d-flex gap-3 justify-content-lg-end justify-content-sm-center">
+                    <button class="btn btn-outline-secondary rounded whatsapp"><i class="ri-whatsapp-line"></i>WhatsApp</button>
+                    <button class="btn btn-outline-secondary rounded call"><i class="ri-phone-line"></i><a href="./contact.html">Call Us</a></button> 
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="container-fluid py-lg-5 py-sm-4">
+<div class="container">
+    <div class="row justify-content-lg-between">
+        <div class="col-lg-6">
+            <div class="heading-content">
+                <h1>Carrer Opportunities in <br>
+                    <span>Web Development</span> <br>
+                </h1>
+                <p>Web Development course is too good, you only need to pay-after placement.</p>
+                <ul>
+                    <li><i class="ri-checkbox-circle-fill"></i> Specialization: Responsive Web Design</li>
+                    <li><i class="ri-checkbox-circle-fill"></i> Min. Salary of 4.5 LPA</li>
+                    <li><i class="ri-checkbox-circle-fill"></i> 50 Seats Only !</li>
+                </ul>
+            </div>
+            <div class="two-btns d-flex gap-3">
+                <button class="btn demo" data-bs-toggle="modal" data-bs-target="#enmodal">Book 2 Days Demo</button>
+                <button class="btn download"><i class="ri-download-line"></i> Download Curriculum</button>
+            </div>
+        </div>
+        <div class="col-lg-5 mt-2 mt-sm-0">
+            <div class="form-holder shadow-lg py-lg-2 px-lg-3 py-sm-2 px-sm-3">
+                <div class="form-content">
+                    <h5> Book your free demo Session now !</h5>
+                    <p>2 Days of free demo session without paying a single rupee</p>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label mb-0">Name: </label>
+                    <input type="text" class="form-control" placeholder="Mention your full name" />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label mb-0">E-mail: </label>
+                    <input type="email" class="form-control" placeholder="mentionyour@gmail.com" />
+                  </div>  
+                  <div class="input-group mb-3 phonenumber">
+                    <label class="form-label mb-0">Phone: </label>
+                    <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">+91</span>
+                    <input type="text" class="form-control" maxlength="10" pattern="[0-9]{10}" placeholder="Phone Number" required/>
+                    </div>
+                  </div>
+                  <div class="form-btn">
+                    <button> Register Now </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container shadow-lg mt-5">
+    <div class="row py-lg-2 data_holder row-cols-lg-5 row-cols-sm-3 row-cols-2">
+        <div class="col">
+            <h2>1000+</h2>
+            <p>Students Placed</p>
+        </div>
+        <div class="col">
+            <h2>336+</h2>
+            <p>Companies</p>
+        </div>
+        <div class="col">
+            <h2>2+</h2>
+            <p>Branches in India</p>
+        </div>
+        <div class="col">
+            <h2>10+</h2>
+            <p>Years in India</p>
+        </div>
+        <div class="col">
+            <h2>10+</h2>
+            <p>Placement Team</p>
+        </div>
+    </div>
+</div>
+</main>
+
+<section class="container-fluid section-begins mt-5">
+    <div class="container py-2">
+        <div class="row mb-3">
+            <div class="col-12">
+                <h1>Key Highlights of the Course</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, illum est.</p>
+            </div>
+        </div>
+
+        <div class="row gy-3">
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="section-items d-flex align-items-center bg-white gap-3">
+                    <img src="./images/h1.webp" alt="">
+                    <div>
+                    <h5>Assignments & <br> Modules tests </h5>
+                    <p>Test your knowledge </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="section-items d-flex align-items-center bg-white gap-3">
+                    <img src="./images/h2.webp" alt="">
+                    <div>
+                    <h5>Industry recognized <br> certification</h5>
+                    <p>Stand professional </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="section-items d-flex align-items-center bg-white gap-3">
+                    <img src="./images/h3.jpg" alt="">
+                    <div>
+                    <h5>Online classes <br> Available</h5>
+                    <p>Test your knowledge </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="section-items d-flex align-items-center bg-white gap-3">
+                    <img src="./images/h4.jpg" alt="">
+                    <div>
+                    <h5>Downloadable content </h5>
+                    <p>With lifetime access. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="section-items d-flex align-items-center bg-white gap-3">
+                    <img src="./images/h5.jpg" alt="">
+                    <div>
+                    <h5>6 Industry Level <br> Projects </h5>
+                    <p>Get practical skills </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="section-items d-flex align-items-center bg-white gap-3">
+                    <img src="./images/h6.webp" alt="">
+                    <div>
+                    <h5>Customer Support </h5>
+                    <p>Available for assitance. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid py-lg-5 qns_sec">
+    <div class="container bg-light py-3">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <h2>Web Development Course <br> FaQ's ?</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, voluptatibus recusandae.</p>
+            </div>
+            <!-- Accordion begins -->
+            <div class="accordion" id="qn1">
+                <!-- first qns and answer -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                      What is Website Development ?
+                    </button>
+                  </h2>
+                  <div id="faq1" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ipsam adipisci.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- second qns and answer -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                        What is Website Development ?
+                      </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ipsam adipisci.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Third qns and answer -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                        What is Website Development ?
+                      </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ipsam adipisci.</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid card-container py-lg-5 py-sm-3 py-2">
+    <div class="container py-lg-5 py-sm-3 py-3">
+        <div class="row gy-3 text-center">
+            <div class="col-lg-6">
+                <h2>Explore Top Career Domains</h2>
+                <p>Discover career paths that truly resonate with your passion & explore <br> mentorship programs that align perfectly with you.</p>
+            </div>
+            <div class="col-lg-3">
+                <div class="img-content py-3 px-3">
+                    <img src="./images/l2.svg" alt="">
+                    <h5>Web Development</h5>
+                    <p><a href="./course.html">See Programs</a></p>
+                </div>
+            </div>    
+            <div class="col-lg-3">
+                <div class="img-content py-3 px-3">
+                    <img src="./images/l4.svg" alt="">
+                    <h5>App Development</h5>
+                    <p><a href="./course.html">See Programs</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row gy-3 text-center justify-content-center">
+    <div class="col col-lg-3 col-11">
+        <div class="img-content py-3 px-3">
+            <img src="./images/l2.svg" alt="">
+            <h5>Full Stack Development</h5>
+            <p><a href="./course.html">See Programs</a></p>
+        </div>
+    </div>
+    <div class="col col-lg-3 col-11">
+        <div class="img-content py-3 px-3">
+            <img src="./images/l2.svg" alt="">
+            <h5>Android Development</h5>
+            <p><a href="./course.html">See Programs</a></p>
+        </div>
+    </div>
+    <div class="col col-lg-3 col-11">
+        <div class="img-content py-3 px-3">
+            <img src="./images/l3.svg" alt="">
+            <h5>Digital Marketing</h5>
+            <p><a href="./course.html">See Programs</a></p>
+        </div>
+    </div>
+    <div class="col col-lg-3 col-11">
+        <div class="img-content py-3 px-3">
+            <img src="./images/l4.svg" alt="">
+            <h5>Front-End Development</h5>
+            <p><a href="./course.html">See Programs</a></p>
+        </div>
+    </div>
+    
+</div>
+
+</section>
+
+<section class="container-fluid course py-5">
+    <div class="container py-lg-5 py-3">
+        <div class="row">
+            <div class="col">
+                <h2>Mentorship Programs</h2>
+                <p>Choose your program, get certified, and grab new career Opportunities.</p>
+            </div>
+        </div>
+        <div class="row py-lg-2">
+            <div class="col">
+                <div class="btn-s">
+                    <button class="btn btn-light"><a href="./course.html" style="color: black;">Data Analytics</a></button>
+                    <button class="btn btn-light"><a href="./course.html" style="color: black;">Digital Marketing</a></button>
+                    <button class="btn btn-light"><a href="./course.html" style="color: black;">Web Development</a></button>
+                    <button class="btn btn-light"><a href="./course.html" style="color: black;">Cyber Security</a></button>
+                    <button class="btn btn-light"><a href="./course.html" style="color: black;">App Development</a></button>
+                    <button class="btn btn-light"><a href="./course.html" style="color: black;">Design</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container prgm-section bg-light py-lg-3">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="./images/download.png" alt="">
+            </div>
+            <div class="col-lg-8 col-12">
+                <div class="prgam-class">
+                    <h5>Web Development Mentorship Program</h5>
+                    <p>Join this 20 weeks, Job-ready program to master web Development from scratch with Top web Development from Microsoft, KPMG, Amazon and Rapido.</p>
+                    <p>4.9 <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i></p>
+                    <h6>Targeted Job Role: <span class="web">Web Development</span></h6>
+
+                    <div class="row mt-lg-4">
+                        <div class="col-lg-6">
+                            <div class="crs-time d-flex justify-content-lg-between justify-content-sm-evenly px-lg-3">
+                                <div class="calender">
+                                    <i class="ri-calendar-todo-line"></i>
+                                    <section>
+                                    <h6>Duration</h6>
+                                    <b>20 Weeks</b>
+                                    </section>
+                                </div>
+                                <div>
+                                    <i class="ri-live-fill"></i>
+                                    <section>
+                                    <h6>Live Sessions</h6>
+                                    <b>120</b>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="twobtns py-lg-4 py-2">
+                                <button class="btn btn-primary me-lg-2">Download Curriculum</button>
+                                <button class="btn btn-primary"><a href="./contact.html" style="color: white;">Learn More</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+<footer class="container-fluid py-lg-5 py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <img src="./images/ws-cube-white-logo.svg" alt="Img-not-found" class="py-lg-3">
+                <p>Elevate Your Learning Journey with <br> Cutting-Edge Education Technology.</p>
+                <div>
+                    <i class="ri-twitter-x-line"></i>
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-linkedin-fill"></i>
+                    <i class="ri-youtube-fill"></i>
+                    <i class="ri-facebook-fill"></i>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <ul>
+                    <h5>Company</h5>
+                    <li><a href="./contact.html" style="color: white;">Contact</a></li>
+                    <li>About</li>
+                    <li>WsCube Tech Blog</li>
+                    <li>Self-Paced Courses </li>
+                    <li>Events</li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <ul>
+                    <h5>Data Programs</h5>
+                    <li>Web Development</li>
+                    <li>Data Analytics</li>
+                    <li>Cyber Security</li>
+                    <li>Digital Marketing</li>
+                    <li>App Development </li>
+                    <li>Web Design</li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <ul>
+                    <h5>Support</h5>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>Refund Policy</li>
+                    <li>FAQ's</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h5 class="mt-lg-3 footer-line text-center"> ~ Built with Passion by Afshan 2025 © WscubeTechClone™ Ltd. All rights reserved.</h5>
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</html>

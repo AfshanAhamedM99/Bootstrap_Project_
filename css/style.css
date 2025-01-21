@@ -1,0 +1,244 @@
+@import url(./hover.css);
+
+*{
+    font-family: "Metrophobic", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.whatsapp i{
+    color: green;
+    font-size: 20px;
+    padding: 5px;
+}
+.whatsapp{
+    color: white;
+}
+.whatsapp:hover{
+    background-color: lightgreen;
+    color: black;
+}
+.call:hover{
+    background-color: #87CEEB;
+    color: white;
+}
+.header-begin{
+    background: linear-gradient(to right, #0000FF, #87CEEB);
+    position: fixed;
+    top: 0;
+}
+.heading-content span{
+    color: skyblue;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    font-size: 32px;
+}
+.heading-content h1{
+    font-weight: 900;
+    font-size: 41px;
+}
+.heading-content p{
+    font-size: 1.5rem;
+}
+.heading-content ul li{
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+.heading-content ul li i{
+    color: rgb(83, 175, 212);
+}
+.two-btns button{
+    padding: 7px 15px;
+    border-radius: 7px;
+    background: linear-gradient(to left ,skyblue, rgb(83, 175, 212));
+    color: white;
+}
+
+.form-holder{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.form-btn button{
+    background: linear-gradient(to left ,skyblue, rgb(83, 175, 212));
+    border: none;
+    padding: 5px 3px ;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+.data_holder h2{
+    color: rgb(70, 147, 177);
+}
+main{
+    margin-top: 81px;
+}
+
+.section-begins{
+    background-color: #f7faff;
+    padding-bottom: 70px;
+}
+.section-begins h1{
+    font-weight: 700;
+}
+.section-begins p{
+    font-size: 18px;
+}
+.section-items img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.qns_sec{
+    background-color: #e5f3f8;
+}
+.qns_sec h2{
+    font-weight: 700;
+}
+.qns_sec p{
+    font-size: 18px;
+}
+.card-container{
+    background-color: #a2c8d6;
+}
+.img-content{
+    background-color: #fff;
+    border-radius: 7px;
+}
+.img-content h5{
+    padding-top: 15px;
+}
+.course{
+    background-color: #daf0f8;
+}
+.crs-time{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #a2c8d6;
+}
+.web{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 20px;
+}
+.prgm-section{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.ri-star-fill,.ri-star-half-line{
+    color: orange;
+}
+.prgam-class h5{
+    font-weight: 700;
+}
+.prgam-class h6{
+    opacity: 0.7;
+}
+.prgam-class span{
+    font-weight: bold;
+    color: black;
+}
+.ri-calendar-todo-line{
+    color: rgb(8, 145, 8);
+}
+.ri-live-fill{
+    color: rgb(236, 171, 49);
+}
+footer{
+    background: linear-gradient(to right, #0000FF, #87CEEB);
+    color: white;
+}
+.ri-twitter-x-line,.ri-instagram-line,.ri-linkedin-fill,.ri-youtube-fill,.ri-facebook-fill{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 3px;
+}
+.footer-line{
+    font-size: 13px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.twobtns button{
+    margin: 2px;
+}
+
+/* course styling */
+.course-main{
+    background-image: url('../images/banner.svg');
+    object-fit: cover;
+    object-position: center;
+    background-color: #f0f3f5;
+}
+.ri-shield-star-fill{
+    color: orange;
+}
+.ri-megaphone-line{
+    color: rgb(184, 77, 77);
+    font-size: 50px;
+}
+.prep-progm h1{
+    font-weight: 700;
+}
+.prep-progm p{
+    opacity: 0.7;
+}
+.ri-sparkling-fill, .ri-group-fill {
+    padding: 2px 5px;
+    color: blue;
+}
+.alumini{
+    background: linear-gradient(to right, #0000FF, #87CEEB);
+    border-radius: 5px;
+    padding: 3px;   
+    color: white;
+}
+.banner-start p{
+    width: 136px;
+    height: 170.38px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #0000FF, #87CEEB);
+    color: white;
+    padding: 3px;
+}
+.card-img-top{
+    object-fit: cover;
+    object-position: center;
+}
+.img-card-section .wrapper-card{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.contains img{
+    width: 100%;
+    object-position: center;
+}
+.ri-group-line,.ri-time-line{
+    opacity: 0.7;
+}
+.img-card-section p{
+    opacity: 0.7;
+}
+.contains h5,p{
+    padding: 5px;
+}
+.wrapper-card .btn{
+margin: 5px;
+}
+.dma-course{
+    background: linear-gradient(to right, #0000FF, #050529);
+    color: white;
+}
+.moving-content{
+    font-size: 18px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+.ri-double-quotes-l{
+    font-size: 70px;
+}
